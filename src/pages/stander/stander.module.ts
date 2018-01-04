@@ -1,6 +1,6 @@
-import { NgModule } from '@angular/core';
-import { IonicPageModule } from 'ionic-angular';
-import { StanderPage } from './stander';
+import {NgModule} from '@angular/core';
+import {IonicPageModule} from 'ionic-angular';
+import {StanderPage} from './stander';
 
 @NgModule({
   declarations: [
@@ -10,4 +10,5 @@ import { StanderPage } from './stander';
     IonicPageModule.forChild(StanderPage),
   ],
 })
-export class StanderPageModule {}
+export class StanderPageModule {
+}

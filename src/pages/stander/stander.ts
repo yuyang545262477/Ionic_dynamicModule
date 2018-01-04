@@ -1,5 +1,5 @@
-import { Component } from '@angular/core';
-import { IonicPage, NavController, NavParams } from 'ionic-angular';
+import {Component} from '@angular/core';
+import {IonicPage, NavController, NavParams} from 'ionic-angular';
 
 /**
  * Generated class for the StanderPage pages.
@@ -20,6 +20,7 @@ export class StanderPage {
 
   ionViewDidLoad() {
     console.log('ionViewDidLoad StanderPage');
+    console.log(this.navCtrl.canGoBack());
   }
 
 }
